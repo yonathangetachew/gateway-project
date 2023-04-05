@@ -35,6 +35,7 @@ height: 55px;
 
 .navbar{
   display: flex;
+  flex-flow: row-reverse;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -182,7 +183,7 @@ background: linear-gradient(90deg, rgba(254,58,16,1) 28%, rgba(231,179,41,1) 88%
   background: #130f40;
 }
 /* Need to cover display grid & ms grid */
-.popular .box-container {
+.menu .box-container {
   background: rgb(255,23,0);
 background: linear-gradient(90deg, rgba(255,23,0,1) 9%, rgba(149,18,23,1) 37%);
   display: -ms-grid;
@@ -192,7 +193,7 @@ background: linear-gradient(90deg, rgba(255,23,0,1) 9%, rgba(149,18,23,1) 37%);
   gap: 1.5rem;
 }
 
-.popular .box-container .box {
+.menu .box-container .box {
   border-radius: .5rem;
   position: relative;
   background: rgb(255,23,0);
@@ -201,28 +202,28 @@ background: linear-gradient(90deg, rgba(255,23,0,1) 9%, rgba(149,18,23,1) 37%);
   text-align: center;
 }
 
-.popular .box-container .box .image {
+.menu .box-container .box .image {
   margin: 1rem 0;
 }
 
-.popular .box-container .box .image img {
+.menu .box-container .box .image img {
   height: 15rem;
   width: 15rem;
   object-fit: contain;
 }
 
-.popular .box-container .box .content h4 {
+.menu .box-container .box .content h4 {
   font-size: 2rem;
   color: #130f40;
 }
 
 
-.popular .box-container .box .content .price {
+.menu .box-container .box .content .price {
   font-size: 2rem;
   color: #130f40;
 }
 
-.popular .box-container .box .content .price span {
+.menu .box-container .box .content .price span {
   font-size: 1.5rem;
   color: #666;
   text-decoration: line-through;
