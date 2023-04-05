@@ -80,7 +80,7 @@ height: 55px;
   color: black;
 }
 
-.navbar .navTabs .btn-reviews{
+.navbar .navTabs .btn-menu{
   color: white;
   margin-left: 20px;
   padding: 10px 25px;
@@ -89,7 +89,7 @@ height: 55px;
   border-radius: 50px;
 }
 
-.navbar .navTabs .btn-reviews:hover{
+.navbar .navTabs .btn-menu:hover{
   background: white;
   color: black;
 }
