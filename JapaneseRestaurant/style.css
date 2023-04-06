@@ -175,7 +175,7 @@ background: linear-gradient(90deg, rgba(254,58,16,1) 28%, rgba(231,179,41,1) 88%
   font-size: 1.7rem;
   cursor: pointer;
   color: #fff;
-  background: orange;
+  background: rgb(224, 173, 4);
   border-radius: .5rem;
 }
 
