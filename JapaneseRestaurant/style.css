@@ -175,12 +175,12 @@ background: linear-gradient(90deg, rgba(254,58,16,1) 28%, rgba(231,179,41,1) 88%
   font-size: 1.7rem;
   cursor: pointer;
   color: #fff;
-  background: #654906;
+  background: orange;
   border-radius: .5rem;
 }
 
 .btn:hover {
-  background: #130f40;
+  background: #000000;
 }
 /* Need to cover display grid & ms grid */
 .popular .box-container {
